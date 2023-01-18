@@ -12,25 +12,20 @@
                                         </p>
                                         <p>
                                                   <label for="kelas">kelas:</label>
-                                                  <input type="text" name="kelas"/>
+                                                  <input type="number" name="kelas"/>
                                         </p>
                                         <p>
                                                   <label for="jurusan">jurusan:</label>
-                                                  <select name="jurusan">
-                                                  <option value="RPL">rpl</option>
-                                                  <option value="MM">mm</option>
-                                                  <option value="TKRO">tkro</option>
-                                                  <option value="AP">ap</option>
-                                                  </select>
+                                                  <input type="text" name="jurusan"/>
 
                                         </p>
                                         <p>
                                                   <label for="tahun">tahun:</label>
-                                                  <input type="text" name="tahun"/>
+                                                  <input type="number" name="tahun"/>
                                         </p>
                                         <p>
                                                   <label for="nominal">nominal:</label>
-                                                  <input type="text" name="nominal"/>
+                                                  <input type="number" name="nominal"/>
                                         </p>
                                         <p>
                                                   <input type="submit" value="daftar" name="tambah"/>

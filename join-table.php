@@ -35,5 +35,6 @@ foreach($query as $row) :
 
   <?php endforeach; ?>
 
+
 </body>
 </html>
