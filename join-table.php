@@ -15,6 +15,7 @@
             <td>Jurusan</td>
             <td>Tahun</td>
             <td>Nominal</td>
+            <td>AKSI</td>
 </tr>
 <?php
 include("koneksi.php");
@@ -31,7 +32,13 @@ foreach($query as $row) :
     <td><?= $row['nama_jurusan']; ?></td>
     <td><?= $row['tahun']; ?></td>
     <td><?= $row['nominal']; ?></td>
+
+    <td><a href="edit.php?id_siswa=<?php echo $row['id_siswa'];?>">edit</a>
+    <a href="proses_hapus.php?id_siswa=<?php echo $row['id_siswa'];?>">hapus</a></td>
    </tr>
+
+   <a href="tambah.php?id_siswa=<?php echo $row['id_siswa'];?>">TAMBAH</a>
+
 
   <?php endforeach; ?>
 
